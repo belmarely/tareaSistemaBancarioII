@@ -94,7 +94,7 @@ public class Main {
 
                     }
                         System.out.println("Desea informacion de otra cuenta");
-                        a = lector.nextInt();
+                        a = LectorDeDatos.solicitarEntero("Ingrese una opción");
                     }
                     break;
                 case 5:
